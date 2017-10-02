@@ -1,0 +1,11 @@
+The flask API is being served on port 5000 and can be modified through the docker-compose file 
+
+* ABOUT 
+  - I've setup the Flask API to read and write to the backend MongoDB, metrics are collected using the prometheus_client and can be accessible by localhost:5000/metrics
+
+* CONFIGURE
+  - Modify the port mapping in the docker-compose.yml file. 
+      - Default : 
+        - FLASK API : 5000
+        - Prometheus : 9090 
+  -  In the parent directory  `docker-compose up -d`
