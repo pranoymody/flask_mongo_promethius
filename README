@@ -8,4 +8,5 @@ The flask API is being served on port 5000 and can be modified through the docke
       - Default : 
         - FLASK API : 5000
         - Prometheus : 9090 
-  -  In the parent directory  `docker-compose up -d`
+  -  In the parent directory  `docker-compose build`, to build the flask app image
+  -  To start the stack ` docker-compose up -d `
